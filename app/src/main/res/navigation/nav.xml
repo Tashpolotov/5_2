@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/rickAndMortiFragment">
+
+    <fragment
+        android:id="@+id/rickAndMortiFragment"
+        android:name="com.example.a5_2.RickAndMortiFragment"
+        android:label="fragment_rick_and_morti"
+        tools:layout="@layout/fragment_rick_and_morti" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.a5_2.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/characterDetailsFragment"
+        android:name="com.example.a5_2.CharacterDetailsFragment"
+        android:label="CharacterDetailsFragment" />
+    <fragment
+        android:id="@+id/charactersFragment"
+        android:name="com.example.a5_2.CharactersFragment"
+        android:label="CharactersFragment" />
+
+</navigation>
